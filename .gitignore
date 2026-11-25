@@ -1,0 +1,22 @@
+# Environment & Secrets
+.env
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local SQLite database (regenerated via scripts/init_project.py)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

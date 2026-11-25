@@ -1,0 +1,87 @@
+{
+  "n_clusters": 4,
+  "silhouette_score": 0.3657,
+  "pca_explained_variance": [
+    0.6007,
+    0.1877
+  ],
+  "k_evaluation": [
+    {
+      "k": 2,
+      "inertia": 19668.3,
+      "silhouette": 0.4051
+    },
+    {
+      "k": 3,
+      "inertia": 14991.99,
+      "silhouette": 0.3437
+    },
+    {
+      "k": 4,
+      "inertia": 11684.01,
+      "silhouette": 0.3657
+    },
+    {
+      "k": 5,
+      "inertia": 9864.64,
+      "silhouette": 0.3593
+    },
+    {
+      "k": 6,
+      "inertia": 8514.59,
+      "silhouette": 0.3676
+    }
+  ],
+  "cluster_names": {
+    "3": "At-Risk High-Friction",
+    "1": "Loyal High-Value Champions",
+    "0": "Budget Steady Core",
+    "2": "New Digital Explorers"
+  },
+  "cluster_profiles": [
+    {
+      "cluster_id": 0,
+      "cluster_segment": "Budget Steady Core",
+      "customers": 2106,
+      "avg_tenure": 27.31,
+      "avg_monthly_charges": 25.81,
+      "avg_total_charges": 687.54,
+      "avg_services": 1.53,
+      "avg_tickets": 0.59,
+      "churn_rate": 14.15
+    },
+    {
+      "cluster_id": 1,
+      "cluster_segment": "Loyal High-Value Champions",
+      "customers": 1622,
+      "avg_tenure": 59.19,
+      "avg_monthly_charges": 88.67,
+      "avg_total_charges": 5239.55,
+      "avg_services": 6.61,
+      "avg_tickets": 0.21,
+      "churn_rate": 2.53
+    },
+    {
+      "cluster_id": 2,
+      "cluster_segment": "New Digital Explorers",
+      "customers": 2554,
+      "avg_tenure": 14.31,
+      "avg_monthly_charges": 74.36,
+      "avg_total_charges": 1057.82,
+      "avg_services": 4.15,
+      "avg_tickets": 0.53,
+      "churn_rate": 44.4
+    },
+    {
+      "cluster_id": 3,
+      "cluster_segment": "At-Risk High-Friction",
+      "customers": 761,
+      "avg_tenure": 49.83,
+      "avg_monthly_charges": 89.38,
+      "avg_total_charges": 4478.31,
+      "avg_services": 6.11,
+      "avg_tickets": 4.8,
+      "churn_rate": 52.04
+    }
+  ]
+}

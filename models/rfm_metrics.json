@@ -1,0 +1,83 @@
+{
+  "n_clusters": 4,
+  "silhouette_score": 0.523,
+  "pca_explained_variance": [
+    0.5009,
+    0.2702
+  ],
+  "k_evaluation": [
+    {
+      "k": 2,
+      "inertia": 69555.92,
+      "silhouette": 0.5044
+    },
+    {
+      "k": 3,
+      "inertia": 52113.29,
+      "silhouette": 0.495
+    },
+    {
+      "k": 4,
+      "inertia": 40634.82,
+      "silhouette": 0.523
+    },
+    {
+      "k": 5,
+      "inertia": 33595.16,
+      "silhouette": 0.4044
+    },
+    {
+      "k": 6,
+      "inertia": 28272.62,
+      "silhouette": 0.3939
+    }
+  ],
+  "cluster_names": {
+    "1": "VIP Repeat Spenders",
+    "2": "Frequent Multi-Order Buyers",
+    "3": "Dormant High-Ticket",
+    "0": "Occasional / Entry Buyers"
+  },
+  "cluster_profiles": [
+    {
+      "rfm_cluster_id": 0,
+      "rfm_segment": "Occasional / Entry Buyers",
+      "customers": 13254,
+      "avg_recency": 137.37,
+      "avg_orders": 1.19,
+      "avg_total_sales": 472.85,
+      "avg_order_value": 441.97,
+      "avg_lifespan": 0.78
+    },
+    {
+      "rfm_cluster_id": 1,
+      "rfm_segment": "VIP Repeat Spenders",
+      "customers": 4748,
+      "avg_recency": 137.07,
+      "avg_orders": 2.26,
+      "avg_total_sales": 4586.32,
+      "avg_order_value": 2046.33,
+      "avg_lifespan": 17.87
+    },
+    {
+      "rfm_cluster_id": 2,
+      "rfm_segment": "Frequent Multi-Order Buyers",
+      "customers": 35,
+      "avg_recency": 132.23,
+      "avg_orders": 20.6,
+      "avg_total_sales": 986.37,
+      "avg_order_value": 47.66,
+      "avg_lifespan": 10.97
+    },
+    {
+      "rfm_cluster_id": 3,
+      "rfm_segment": "Dormant High-Ticket",
+      "customers": 445,
+      "avg_recency": 158.56,
+      "avg_orders": 1.0,
+      "avg_total_sales": 2862.29,
+      "avg_order_value": 2862.29,
+      "avg_lifespan": 0.0
+    }
+  ]
+}
